@@ -1,0 +1,103 @@
+ 
+    body
+        {
+        	    line-height: unset !important;
+        	    background-color: #dae1e7 !important;	
+        }
+  	.error
+	  	{
+	  		color:red;
+	  	}
+	 .success
+	  	{
+	  		color:green;
+	  	}
+  	.container
+	  	{
+	  		width:600px;
+	  	}
+  	h1
+	  	{
+	  		text-align: center;
+	  		color:#337ab7;
+	  		font-weight:700;
+	  	}
+      h2
+          {
+              text-align: center;
+          }
+    	h4
+	  	{
+	  		text-align: center;
+	  		color:#337ab7;
+	  		font-weight:600;
+	  	}
+  	.form-group 
+	  	{
+	    margin-bottom: 0px;
+	    }
+
+	table
+	    {
+	    	width:28%;
+	    }   
+
+	table tr  td
+        {  
+         padding:5px;   
+        }
+    table tr th
+        {
+          
+         padding:5px;   
+        }
+
+    table tr  td:hover
+        {
+         color:#337ab7;  
+         border-color:#337ab7; 
+        }
+    table tr th:hover
+        {
+         color:#337ab7;  
+         border-color:#337ab7; 
+        }
+	  .topnav
+	  {
+
+	  	float:right;
+	   margin-top: 36px;
+	   
+	  }
+	 a
+	   {
+         padding: 28px;
+       }
+  .footer
+  {
+  	padding-top: 96px;
+  	text-align: center;
+  }
+  table tr th:hover {
+    color: #fff;
+     }
+     .col-sm-4.add {
+    text-align: center;
+}
+   
+button.btn {
+    margin-bottom: -41px;
+    padding-left: 0px;
+}
+
+
+
+img.img {
+    padding: 10px;
+    border: 2px white solid;
+}
+
+input.checkSingle {
+    position: absolute;
+    margin-left: -110px;
+}

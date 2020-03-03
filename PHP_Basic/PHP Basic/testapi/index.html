@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<h1>Click on button for see cartoon of matching with your name.</h1>
+		<div class="center">
+			<div class="details">
+				<label>Enter your name</label><br>
+				<input type="text" name="nameid" id="nameid" placeholder="Enter your name">
+			</div>
+			<div class="image">
+				<img src="user.png" id="imageid" width="200px" height="200px"> 
+			</div>
+			<button>Click me</button>
+		</div>
+	</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$("button").click(function(){
+			var name = $("#nameid").val();
+
+			$("#imageid").attr('src',`https://joeschmoe.io/api/v1/${name}`)
+
+
+		});
+
+	})
+
+</script>
+</body>
+</html>
